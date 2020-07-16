@@ -1,0 +1,6 @@
+framework module Pods_SunUp_SunUpUITests {
+  umbrella header "Pods-SunUp-SunUpUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

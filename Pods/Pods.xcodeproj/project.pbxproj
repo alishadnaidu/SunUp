@@ -1,0 +1,1279 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		097AEF0AFFDAA521409A18088F102144 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C0DC440C4222F19B4AC6A39E66CFCFA /* Foundation.framework */; };
+		12BE41D56F5BAF2906A96D2D79741322 /* cameraRotate@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = DF875D5E1615F1D4491DF1F12B5D10DE /* cameraRotate@3x.png */; };
+		1611E5CC8EA0C0CEE652E4088270D020 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53B01D02F648FC21D052A90B4A54D5A6 /* AVFoundation.framework */; };
+		2DB1F7D317E5A014AB4EB30335DEAEB8 /* UIViewController+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7269260105E84416E11FDF56535BB424 /* UIViewController+Extensions.swift */; };
+		308AB608F2297585ECA8083CE126FE4C /* VideoPermissionService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98D48FB865D6E0867651B52212BBA7FC /* VideoPermissionService.swift */; };
+		30EC35B249D02FE6DE6A6009BF334FD5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80ED7A3D19C791675B92A5B47AAE4D58 /* UIKit.framework */; };
+		332FCA5031807E217BA2F62269F3A97B /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 897196DD0044DACEC56512F5C9F9D1BE /* CameraViewController.swift */; };
+		3958BF3117C7DB5B6582993CB17BEAC6 /* flashOff@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = CF6DE5FA38E3D76B52515B7F403DA8A3 /* flashOff@3x.png */; };
+		42AA3B56BCC215494108D3CFF10E6B11 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C0DC440C4222F19B4AC6A39E66CFCFA /* Foundation.framework */; };
+		47B4EAC55FAADCE3C983A4EC664F779D /* info@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = AF38BF94BABAAE44415E2568DCA263D8 /* info@3x.png */; };
+		4B5BA3D38FB40690B93C0E3969AC3217 /* Localization.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 74F4D59B519920CD954D013FCD061B86 /* Localization.bundle */; };
+		4BE9AF350DC7568B06E34C03F2DA3579 /* Functions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBB88AEBFC1DF4BA6D598A88AB3644FB /* Functions.swift */; };
+		557F4EA99959468A2BF95E6D10428D68 /* State.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1DA6B76BD897A065A3188325A598415 /* State.swift */; };
+		55AA66E203361B7BDF103FF5F85B07EE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C0DC440C4222F19B4AC6A39E66CFCFA /* Foundation.framework */; };
+		62E0CE93FC30899F894A910F6EB9BE39 /* flashOn@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C8A1CF5B44D8904EBED90AF876AB829 /* flashOn@3x.png */; };
+		725104AEF077162A5B65315F912F0852 /* BarcodeScanner.bundle in Resources */ = {isa = PBXBuildFile; fileRef = A234A8BFB979A78BC6E93200F1F79F8B /* BarcodeScanner.bundle */; };
+		7760913E92FE2BCA7B1C000E6F58942A /* FocusViewType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9389FE89BCB9F900CDEF3EC1168399E6 /* FocusViewType.swift */; };
+		77C977D9753C460CF5AE45081F00E0BA /* Pods-SunUp-SunUpUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3972E98A780A973D74AA0BB054F75F53 /* Pods-SunUp-SunUpUITests-dummy.m */; };
+		7A1461ED6EE7A84BC97CF1A53E060225 /* Pods-SunUp-SunUpUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C2D9407A67C1CB8ADFC443264928A5A6 /* Pods-SunUp-SunUpUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9554E000E30543FA96CEE0026406A0CE /* NSLayoutConstraint+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4CFB7BE44AD1622DAF19EC6EFD0E2CB /* NSLayoutConstraint+Extensions.swift */; };
+		9DC07F24E1C21C735521B9BA7C7ED746 /* Pods-SunUpTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C61340833527725A78009B689AA17876 /* Pods-SunUpTests-dummy.m */; };
+		A1849DB66FC718A087ECF25B42EFEBF1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C0DC440C4222F19B4AC6A39E66CFCFA /* Foundation.framework */; };
+		A7C8A55D7A6828D19257C5DC940A0EF9 /* UIView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7306C6D0F75D65DF403D8A287E746E36 /* UIView+Extensions.swift */; };
+		AA9EC8E9C8DCA7953E9A1DA7B46DDEC9 /* AVMetadataObject+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05D63949EDB691E84D617C0E574FA530 /* AVMetadataObject+Extensions.swift */; };
+		B4D0DBAAAACF99E446D76C58318A3183 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3D098393BEF06651863F9888B48E6152 /* Localizable.strings */; };
+		CA0FFD52BF4CC45FFD60D2043085C7FF /* Pods-SunUp-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D6E27BC1FD6AFF04449746F9EA09EA89 /* Pods-SunUp-dummy.m */; };
+		D235124E4A7B687EBF426AA6087AEB5E /* BarcodeScannerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B9AE80FE9760736378CAFADCD22DCD3 /* BarcodeScannerViewController.swift */; };
+		D7AF37748C512E156B04D527C288F216 /* BarcodeScanner-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 96BE3908F405E1693B56C0A4B409765D /* BarcodeScanner-dummy.m */; };
+		D88B6F2FA2660A1651C4A4B0C848EB45 /* MessageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 411AEA4ECDAEBDE3A66883C0E6DFFED4 /* MessageViewController.swift */; };
+		D8F21C55EAFE68610F13C0D35856AF07 /* HeaderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF6AD70AACDFE71A8F93DA14AD677A14 /* HeaderViewController.swift */; };
+		DBD6749F816809245B9017F022EFFB03 /* BarcodeScanner-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5FFB0A153ED8178CBEFE4BF9F15363F5 /* BarcodeScanner-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DD0277B01CC8964F5D79E76D6BDA3DD0 /* Pods-SunUpTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 66DD9262255223485D18F181056EA3FD /* Pods-SunUpTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EE9FA438FDCE7E0929833C25BA78AB56 /* Pods-SunUp-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E91AF3FB73F0F29F2CFD4969CE59A1D7 /* Pods-SunUp-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F351CBBA7D0FE00F84286F87520B6AD7 /* TorchMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26EF0ED70E9A1CA14313E4B6A6C9A74F /* TorchMode.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1DE656B8C15BDE799169ABEC3DA12A21 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 39D656AC88E303625E9AA42D19C21D75;
+			remoteInfo = BarcodeScanner;
+		};
+		3DF9504B6B8ECA5D22959CFA119197E9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9DA86296E110CDB0B1147E04C2C613F9;
+			remoteInfo = "Pods-SunUp";
+		};
+		641782B6A50C2E4525FF0BC4A6340FE0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 39D656AC88E303625E9AA42D19C21D75;
+			remoteInfo = BarcodeScanner;
+		};
+		F1937F42E05AD91D490024D708FBC2B3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 02E136446D8E897681981873306A783A;
+			remoteInfo = "BarcodeScanner-BarcodeScanner";
+		};
+		FEFB859EA66BDDC311399DC53CE13DDC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2598A00DF974C904143778EDC46CC0E5;
+			remoteInfo = "BarcodeScanner-Localization";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0252DC2B2004AD45D8CD7788E19C3C8A /* Pods-SunUp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SunUp.debug.xcconfig"; sourceTree = "<group>"; };
+		05D63949EDB691E84D617C0E574FA530 /* AVMetadataObject+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "AVMetadataObject+Extensions.swift"; path = "Sources/Extensions/AVMetadataObject+Extensions.swift"; sourceTree = "<group>"; };
+		0FA81B71F8EC53A6C915C6D96FD80111 /* Pods-SunUp-SunUpUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SunUp-SunUpUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		125103FCF25A14B22650A5132A33B7FA /* Pods-SunUp-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SunUp-Info.plist"; sourceTree = "<group>"; };
+		19BB8B141B4331E78AEBA73C052F8EA8 /* BarcodeScanner.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BarcodeScanner.release.xcconfig; sourceTree = "<group>"; };
+		1C8A1CF5B44D8904EBED90AF876AB829 /* flashOn@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "flashOn@3x.png"; path = "Images/flashOn@3x.png"; sourceTree = "<group>"; };
+		1DC0C4B857AC6823EDEA9B1E373B4852 /* BarcodeScanner.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = BarcodeScanner.modulemap; sourceTree = "<group>"; };
+		238584D464279C614786D5F7916A9E2E /* Localizable.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = Localizable.strings; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		26EF0ED70E9A1CA14313E4B6A6C9A74F /* TorchMode.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TorchMode.swift; path = Sources/DataStructures/TorchMode.swift; sourceTree = "<group>"; };
+		2C0DC440C4222F19B4AC6A39E66CFCFA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		32EEAAF3F3CCAC1ECEF2C6D79A545037 /* Pods-SunUpTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SunUpTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		3972E98A780A973D74AA0BB054F75F53 /* Pods-SunUp-SunUpUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SunUp-SunUpUITests-dummy.m"; sourceTree = "<group>"; };
+		411AEA4ECDAEBDE3A66883C0E6DFFED4 /* MessageViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MessageViewController.swift; path = Sources/Controllers/MessageViewController.swift; sourceTree = "<group>"; };
+		4A1507A98E782A8B982855DC61BF5967 /* Pods-SunUpTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SunUpTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		4B2A39D139E6CE6AC741F3A7C453DBB3 /* Localizable.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = Localizable.strings; path = de.lproj/Localizable.strings; sourceTree = "<group>"; };
+		4E8679A427E7CD2B97F17033E953025E /* Pods-SunUp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SunUp.release.xcconfig"; sourceTree = "<group>"; };
+		53B01D02F648FC21D052A90B4A54D5A6 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/AVFoundation.framework; sourceTree = DEVELOPER_DIR; };
+		5B9AE80FE9760736378CAFADCD22DCD3 /* BarcodeScannerViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BarcodeScannerViewController.swift; path = Sources/Controllers/BarcodeScannerViewController.swift; sourceTree = "<group>"; };
+		5F0A9874CA38F64C1BEBBF1F0782B386 /* ResourceBundle-BarcodeScanner-BarcodeScanner-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-BarcodeScanner-BarcodeScanner-Info.plist"; sourceTree = "<group>"; };
+		5FFB0A153ED8178CBEFE4BF9F15363F5 /* BarcodeScanner-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BarcodeScanner-umbrella.h"; sourceTree = "<group>"; };
+		663F1E19454B68C7BDAB80D7E2A0D234 /* Pods-SunUpTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SunUpTests-Info.plist"; sourceTree = "<group>"; };
+		66DD9262255223485D18F181056EA3FD /* Pods-SunUpTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SunUpTests-umbrella.h"; sourceTree = "<group>"; };
+		6CEF74766F556A51E91EAEF51DC36266 /* Pods-SunUpTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SunUpTests.release.xcconfig"; sourceTree = "<group>"; };
+		7188F7427D76847ED91A331BE1ADBD4D /* Pods_SunUp_SunUpUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SunUp_SunUpUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7269260105E84416E11FDF56535BB424 /* UIViewController+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIViewController+Extensions.swift"; path = "Sources/Extensions/UIViewController+Extensions.swift"; sourceTree = "<group>"; };
+		7306C6D0F75D65DF403D8A287E746E36 /* UIView+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIView+Extensions.swift"; path = "Sources/Extensions/UIView+Extensions.swift"; sourceTree = "<group>"; };
+		73D733F5894E734E51D02D2B9F3F02CC /* Pods-SunUp-SunUpUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SunUp-SunUpUITests.release.xcconfig"; sourceTree = "<group>"; };
+		74F4D59B519920CD954D013FCD061B86 /* Localization.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Localization.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		80ED7A3D19C791675B92A5B47AAE4D58 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		897196DD0044DACEC56512F5C9F9D1BE /* CameraViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CameraViewController.swift; path = Sources/Controllers/CameraViewController.swift; sourceTree = "<group>"; };
+		9389FE89BCB9F900CDEF3EC1168399E6 /* FocusViewType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FocusViewType.swift; path = Sources/DataStructures/FocusViewType.swift; sourceTree = "<group>"; };
+		96BE3908F405E1693B56C0A4B409765D /* BarcodeScanner-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "BarcodeScanner-dummy.m"; sourceTree = "<group>"; };
+		98D48FB865D6E0867651B52212BBA7FC /* VideoPermissionService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = VideoPermissionService.swift; path = Sources/Helpers/VideoPermissionService.swift; sourceTree = "<group>"; };
+		9D01A36FD477C21FCB201BF06871459F /* ResourceBundle-Localization-BarcodeScanner-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-Localization-BarcodeScanner-Info.plist"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9EBB4A6A45238C19CE979792F04AED0B /* Pods_SunUpTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SunUpTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1DA6B76BD897A065A3188325A598415 /* State.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = State.swift; path = Sources/DataStructures/State.swift; sourceTree = "<group>"; };
+		A234A8BFB979A78BC6E93200F1F79F8B /* BarcodeScanner.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BarcodeScanner.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3FBB46B5F74831EE71E754D2264EAE9 /* Pods-SunUp-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SunUp-frameworks.sh"; sourceTree = "<group>"; };
+		A46076BFB90BB804754DD9B850F70E6A /* Pods-SunUp.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SunUp.modulemap"; sourceTree = "<group>"; };
+		A5A68F9B926548A2C69EDF1B74E614FB /* Localizable.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = Localizable.strings; path = tr.lproj/Localizable.strings; sourceTree = "<group>"; };
+		AAB00954A05F30C5294B75C4AAB0DFEE /* Pods-SunUp-SunUpUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SunUp-SunUpUITests-frameworks.sh"; sourceTree = "<group>"; };
+		AE19023CAC021D1AC90E9F1F28014CD4 /* Pods-SunUp-SunUpUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SunUp-SunUpUITests-Info.plist"; sourceTree = "<group>"; };
+		AF38BF94BABAAE44415E2568DCA263D8 /* info@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "info@3x.png"; path = "Images/info@3x.png"; sourceTree = "<group>"; };
+		B0AE6B4A12D6282582695C3C0A65CB2F /* Pods-SunUp-SunUpUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SunUp-SunUpUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		B47C9517C4D8737B31449E3529C1C6A8 /* Pods-SunUpTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SunUpTests.debug.xcconfig"; sourceTree = "<group>"; };
+		BA90254853B8F489192FFEB81B76054F /* Pods-SunUp-SunUpUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SunUp-SunUpUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		BD57383B4483C78A4DE9348B5814AAA1 /* BarcodeScanner-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "BarcodeScanner-Info.plist"; sourceTree = "<group>"; };
+		C2D9407A67C1CB8ADFC443264928A5A6 /* Pods-SunUp-SunUpUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SunUp-SunUpUITests-umbrella.h"; sourceTree = "<group>"; };
+		C61340833527725A78009B689AA17876 /* Pods-SunUpTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SunUpTests-dummy.m"; sourceTree = "<group>"; };
+		CC0DB650C00889A1613E92EF0237DB93 /* Pods-SunUpTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SunUpTests.modulemap"; sourceTree = "<group>"; };
+		CC4BAA7F925D337DD043FBE0D4A71771 /* Pods-SunUp-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SunUp-acknowledgements.markdown"; sourceTree = "<group>"; };
+		CEC6E08D351631DC655F4A648DE0C061 /* BarcodeScanner.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = BarcodeScanner.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF6DE5FA38E3D76B52515B7F403DA8A3 /* flashOff@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "flashOff@3x.png"; path = "Images/flashOff@3x.png"; sourceTree = "<group>"; };
+		D5C84530007FBF407A628BF7FF203825 /* BarcodeScanner.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BarcodeScanner.debug.xcconfig; sourceTree = "<group>"; };
+		D6E27BC1FD6AFF04449746F9EA09EA89 /* Pods-SunUp-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SunUp-dummy.m"; sourceTree = "<group>"; };
+		D8455B6D66F706B5BA0E0740FB37E76E /* Pods-SunUp-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SunUp-acknowledgements.plist"; sourceTree = "<group>"; };
+		DF875D5E1615F1D4491DF1F12B5D10DE /* cameraRotate@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "cameraRotate@3x.png"; path = "Images/cameraRotate@3x.png"; sourceTree = "<group>"; };
+		E1C90A132ED9F4D5CE3713DDCD5B930F /* BarcodeScanner-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BarcodeScanner-prefix.pch"; sourceTree = "<group>"; };
+		E2E2FEFF821E431FC42C5A3C6E42ED29 /* Localizable.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = Localizable.strings; path = "pl-PL.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		E91AF3FB73F0F29F2CFD4969CE59A1D7 /* Pods-SunUp-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SunUp-umbrella.h"; sourceTree = "<group>"; };
+		EB3DCD49E0FC703F21E278F663972DDC /* Pods_SunUp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SunUp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF6AD70AACDFE71A8F93DA14AD677A14 /* HeaderViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HeaderViewController.swift; path = Sources/Controllers/HeaderViewController.swift; sourceTree = "<group>"; };
+		F0C0E5032C1C5738EA5ADCF97195DCF0 /* Localizable.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = Localizable.strings; path = fr.lproj/Localizable.strings; sourceTree = "<group>"; };
+		F24D6F26D1B3CE22E51B3A2DF2CFBDE6 /* Pods-SunUp-SunUpUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SunUp-SunUpUITests.modulemap"; sourceTree = "<group>"; };
+		F4CFB7BE44AD1622DAF19EC6EFD0E2CB /* NSLayoutConstraint+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSLayoutConstraint+Extensions.swift"; path = "Sources/Extensions/NSLayoutConstraint+Extensions.swift"; sourceTree = "<group>"; };
+		FBB88AEBFC1DF4BA6D598A88AB3644FB /* Functions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Functions.swift; path = Sources/Helpers/Functions.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4A958FAFE1E8E67AC68FAC093B8C976A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1849DB66FC718A087ECF25B42EFEBF1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CAF4532838F1B013C0A064E734D52DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42AA3B56BCC215494108D3CFF10E6B11 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		77513CBBFFDBA82752A02B6D888C5AAD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55AA66E203361B7BDF103FF5F85B07EE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		86F91E663B15A9BCDE0125EA2795D64C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF6E03E8227C1CBE2862131D888AAE21 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1611E5CC8EA0C0CEE652E4088270D020 /* AVFoundation.framework in Frameworks */,
+				097AEF0AFFDAA521409A18088F102144 /* Foundation.framework in Frameworks */,
+				30EC35B249D02FE6DE6A6009BF334FD5 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C06FA29B651E86ACC856B6AD99A52D33 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		03C5C200A0787E300053CFA8F53CA094 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DF8010B600FC99A0DCA5086146A2B24B /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0D0DB18FFD47FF0E765B018437D9DA26 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				DF875D5E1615F1D4491DF1F12B5D10DE /* cameraRotate@3x.png */,
+				CF6DE5FA38E3D76B52515B7F403DA8A3 /* flashOff@3x.png */,
+				1C8A1CF5B44D8904EBED90AF876AB829 /* flashOn@3x.png */,
+				AF38BF94BABAAE44415E2568DCA263D8 /* info@3x.png */,
+				3D098393BEF06651863F9888B48E6152 /* Localizable.strings */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		2D626BF009A9AD5802B19A677907E771 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A234A8BFB979A78BC6E93200F1F79F8B /* BarcodeScanner.bundle */,
+				CEC6E08D351631DC655F4A648DE0C061 /* BarcodeScanner.framework */,
+				74F4D59B519920CD954D013FCD061B86 /* Localization.bundle */,
+				EB3DCD49E0FC703F21E278F663972DDC /* Pods_SunUp.framework */,
+				7188F7427D76847ED91A331BE1ADBD4D /* Pods_SunUp_SunUpUITests.framework */,
+				9EBB4A6A45238C19CE979792F04AED0B /* Pods_SunUpTests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		43792885279CE93F1FFBD9B6879C4537 /* Pods-SunUp-SunUpUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F24D6F26D1B3CE22E51B3A2DF2CFBDE6 /* Pods-SunUp-SunUpUITests.modulemap */,
+				0FA81B71F8EC53A6C915C6D96FD80111 /* Pods-SunUp-SunUpUITests-acknowledgements.markdown */,
+				BA90254853B8F489192FFEB81B76054F /* Pods-SunUp-SunUpUITests-acknowledgements.plist */,
+				3972E98A780A973D74AA0BB054F75F53 /* Pods-SunUp-SunUpUITests-dummy.m */,
+				AAB00954A05F30C5294B75C4AAB0DFEE /* Pods-SunUp-SunUpUITests-frameworks.sh */,
+				AE19023CAC021D1AC90E9F1F28014CD4 /* Pods-SunUp-SunUpUITests-Info.plist */,
+				C2D9407A67C1CB8ADFC443264928A5A6 /* Pods-SunUp-SunUpUITests-umbrella.h */,
+				B0AE6B4A12D6282582695C3C0A65CB2F /* Pods-SunUp-SunUpUITests.debug.xcconfig */,
+				73D733F5894E734E51D02D2B9F3F02CC /* Pods-SunUp-SunUpUITests.release.xcconfig */,
+			);
+			name = "Pods-SunUp-SunUpUITests";
+			path = "Target Support Files/Pods-SunUp-SunUpUITests";
+			sourceTree = "<group>";
+		};
+		4C538149B5E3E3F47CC684328B5B08DB /* Pods-SunUp */ = {
+			isa = PBXGroup;
+			children = (
+				A46076BFB90BB804754DD9B850F70E6A /* Pods-SunUp.modulemap */,
+				CC4BAA7F925D337DD043FBE0D4A71771 /* Pods-SunUp-acknowledgements.markdown */,
+				D8455B6D66F706B5BA0E0740FB37E76E /* Pods-SunUp-acknowledgements.plist */,
+				D6E27BC1FD6AFF04449746F9EA09EA89 /* Pods-SunUp-dummy.m */,
+				A3FBB46B5F74831EE71E754D2264EAE9 /* Pods-SunUp-frameworks.sh */,
+				125103FCF25A14B22650A5132A33B7FA /* Pods-SunUp-Info.plist */,
+				E91AF3FB73F0F29F2CFD4969CE59A1D7 /* Pods-SunUp-umbrella.h */,
+				0252DC2B2004AD45D8CD7788E19C3C8A /* Pods-SunUp.debug.xcconfig */,
+				4E8679A427E7CD2B97F17033E953025E /* Pods-SunUp.release.xcconfig */,
+			);
+			name = "Pods-SunUp";
+			path = "Target Support Files/Pods-SunUp";
+			sourceTree = "<group>";
+		};
+		7787AAD93F50B13BE8D25A8661CA76C6 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1DC0C4B857AC6823EDEA9B1E373B4852 /* BarcodeScanner.modulemap */,
+				96BE3908F405E1693B56C0A4B409765D /* BarcodeScanner-dummy.m */,
+				BD57383B4483C78A4DE9348B5814AAA1 /* BarcodeScanner-Info.plist */,
+				E1C90A132ED9F4D5CE3713DDCD5B930F /* BarcodeScanner-prefix.pch */,
+				5FFB0A153ED8178CBEFE4BF9F15363F5 /* BarcodeScanner-umbrella.h */,
+				D5C84530007FBF407A628BF7FF203825 /* BarcodeScanner.debug.xcconfig */,
+				19BB8B141B4331E78AEBA73C052F8EA8 /* BarcodeScanner.release.xcconfig */,
+				5F0A9874CA38F64C1BEBBF1F0782B386 /* ResourceBundle-BarcodeScanner-BarcodeScanner-Info.plist */,
+				9D01A36FD477C21FCB201BF06871459F /* ResourceBundle-Localization-BarcodeScanner-Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/BarcodeScanner";
+			sourceTree = "<group>";
+		};
+		85D9386E567BD1767925E10C140DBD7B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FF94405E20193D6A247D1F61780C5830 /* BarcodeScanner */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		92F3035A6413F39F3B9CFCEB62BD32A3 /* Pods-SunUpTests */ = {
+			isa = PBXGroup;
+			children = (
+				CC0DB650C00889A1613E92EF0237DB93 /* Pods-SunUpTests.modulemap */,
+				32EEAAF3F3CCAC1ECEF2C6D79A545037 /* Pods-SunUpTests-acknowledgements.markdown */,
+				4A1507A98E782A8B982855DC61BF5967 /* Pods-SunUpTests-acknowledgements.plist */,
+				C61340833527725A78009B689AA17876 /* Pods-SunUpTests-dummy.m */,
+				663F1E19454B68C7BDAB80D7E2A0D234 /* Pods-SunUpTests-Info.plist */,
+				66DD9262255223485D18F181056EA3FD /* Pods-SunUpTests-umbrella.h */,
+				B47C9517C4D8737B31449E3529C1C6A8 /* Pods-SunUpTests.debug.xcconfig */,
+				6CEF74766F556A51E91EAEF51DC36266 /* Pods-SunUpTests.release.xcconfig */,
+			);
+			name = "Pods-SunUpTests";
+			path = "Target Support Files/Pods-SunUpTests";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				03C5C200A0787E300053CFA8F53CA094 /* Frameworks */,
+				85D9386E567BD1767925E10C140DBD7B /* Pods */,
+				2D626BF009A9AD5802B19A677907E771 /* Products */,
+				F18EB5541F78F25DEE6A15349CF517BF /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		DF8010B600FC99A0DCA5086146A2B24B /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				53B01D02F648FC21D052A90B4A54D5A6 /* AVFoundation.framework */,
+				2C0DC440C4222F19B4AC6A39E66CFCFA /* Foundation.framework */,
+				80ED7A3D19C791675B92A5B47AAE4D58 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		F18EB5541F78F25DEE6A15349CF517BF /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4C538149B5E3E3F47CC684328B5B08DB /* Pods-SunUp */,
+				43792885279CE93F1FFBD9B6879C4537 /* Pods-SunUp-SunUpUITests */,
+				92F3035A6413F39F3B9CFCEB62BD32A3 /* Pods-SunUpTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		FF94405E20193D6A247D1F61780C5830 /* BarcodeScanner */ = {
+			isa = PBXGroup;
+			children = (
+				05D63949EDB691E84D617C0E574FA530 /* AVMetadataObject+Extensions.swift */,
+				5B9AE80FE9760736378CAFADCD22DCD3 /* BarcodeScannerViewController.swift */,
+				897196DD0044DACEC56512F5C9F9D1BE /* CameraViewController.swift */,
+				9389FE89BCB9F900CDEF3EC1168399E6 /* FocusViewType.swift */,
+				FBB88AEBFC1DF4BA6D598A88AB3644FB /* Functions.swift */,
+				EF6AD70AACDFE71A8F93DA14AD677A14 /* HeaderViewController.swift */,
+				411AEA4ECDAEBDE3A66883C0E6DFFED4 /* MessageViewController.swift */,
+				F4CFB7BE44AD1622DAF19EC6EFD0E2CB /* NSLayoutConstraint+Extensions.swift */,
+				A1DA6B76BD897A065A3188325A598415 /* State.swift */,
+				26EF0ED70E9A1CA14313E4B6A6C9A74F /* TorchMode.swift */,
+				7306C6D0F75D65DF403D8A287E746E36 /* UIView+Extensions.swift */,
+				7269260105E84416E11FDF56535BB424 /* UIViewController+Extensions.swift */,
+				98D48FB865D6E0867651B52212BBA7FC /* VideoPermissionService.swift */,
+				0D0DB18FFD47FF0E765B018437D9DA26 /* Resources */,
+				7787AAD93F50B13BE8D25A8661CA76C6 /* Support Files */,
+			);
+			path = BarcodeScanner;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0D299F02723101FC79C31B0F6627B2FF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A1461ED6EE7A84BC97CF1A53E060225 /* Pods-SunUp-SunUpUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1880153451A255DD5101D9B9C4DF8B90 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBD6749F816809245B9017F022EFFB03 /* BarcodeScanner-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4EEE0FF799854F90FFD85E62A6ABE93 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD0277B01CC8964F5D79E76D6BDA3DD0 /* Pods-SunUpTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9E15ACB462742340F690F38DD050793 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE9FA438FDCE7E0929833C25BA78AB56 /* Pods-SunUp-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		02E136446D8E897681981873306A783A /* BarcodeScanner-BarcodeScanner */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA8A49259F23EE2DCB6D5411DB6BF42F /* Build configuration list for PBXNativeTarget "BarcodeScanner-BarcodeScanner" */;
+			buildPhases = (
+				ED0002494109EDB9335D76E828BFE50D /* Sources */,
+				C06FA29B651E86ACC856B6AD99A52D33 /* Frameworks */,
+				F468914EB1473DA9A3D80CEDE69FCCC1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "BarcodeScanner-BarcodeScanner";
+			productName = "BarcodeScanner-BarcodeScanner";
+			productReference = A234A8BFB979A78BC6E93200F1F79F8B /* BarcodeScanner.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		2598A00DF974C904143778EDC46CC0E5 /* BarcodeScanner-Localization */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 89FF89A69612F4D5A5239B022939C747 /* Build configuration list for PBXNativeTarget "BarcodeScanner-Localization" */;
+			buildPhases = (
+				70EDADA64F7800A6D55FC5EAB71C2FEA /* Sources */,
+				86F91E663B15A9BCDE0125EA2795D64C /* Frameworks */,
+				E4312860F9CBC40C13509EB79C614F99 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "BarcodeScanner-Localization";
+			productName = "BarcodeScanner-Localization";
+			productReference = 74F4D59B519920CD954D013FCD061B86 /* Localization.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		39D656AC88E303625E9AA42D19C21D75 /* BarcodeScanner */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5DDE21578FEF0BFAE7EC9B30AA62EAFC /* Build configuration list for PBXNativeTarget "BarcodeScanner" */;
+			buildPhases = (
+				1880153451A255DD5101D9B9C4DF8B90 /* Headers */,
+				2F03B6C32146C30B73BF3ED66FEEDED9 /* Sources */,
+				BF6E03E8227C1CBE2862131D888AAE21 /* Frameworks */,
+				91C096133DD682A489725C90F79B2A38 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8D04E0AB8A12CE2DD68EEA48529ED04C /* PBXTargetDependency */,
+				4A88E0A7695B038D6914F13A80E9896B /* PBXTargetDependency */,
+			);
+			name = BarcodeScanner;
+			productName = BarcodeScanner;
+			productReference = CEC6E08D351631DC655F4A648DE0C061 /* BarcodeScanner.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		9DA86296E110CDB0B1147E04C2C613F9 /* Pods-SunUp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 54202DD1981790D2CD5C8F9F52B5E37C /* Build configuration list for PBXNativeTarget "Pods-SunUp" */;
+			buildPhases = (
+				E9E15ACB462742340F690F38DD050793 /* Headers */,
+				5FDA69055958A7BD5E118722D0FAFE43 /* Sources */,
+				4CAF4532838F1B013C0A064E734D52DF /* Frameworks */,
+				06D246D71DE67B28C6777E5A08E49596 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				31FF24C2F3789B07BC00C8575213F0C4 /* PBXTargetDependency */,
+			);
+			name = "Pods-SunUp";
+			productName = "Pods-SunUp";
+			productReference = EB3DCD49E0FC703F21E278F663972DDC /* Pods_SunUp.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B05CFA96929F4253DC16026B61BEF9FE /* Pods-SunUp-SunUpUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 783AB652A787513801DD4F1E3995015A /* Build configuration list for PBXNativeTarget "Pods-SunUp-SunUpUITests" */;
+			buildPhases = (
+				0D299F02723101FC79C31B0F6627B2FF /* Headers */,
+				6A25AB7AE14C5A6A338F6D00253611B1 /* Sources */,
+				4A958FAFE1E8E67AC68FAC093B8C976A /* Frameworks */,
+				987C3C2F49E002ACFCFB9FE698BC251B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3CD3A8AA29E1EAEF6786B6FC915A997F /* PBXTargetDependency */,
+			);
+			name = "Pods-SunUp-SunUpUITests";
+			productName = "Pods-SunUp-SunUpUITests";
+			productReference = 7188F7427D76847ED91A331BE1ADBD4D /* Pods_SunUp_SunUpUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		BD2085A29219D1620AF6B0386287B86D /* Pods-SunUpTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 85AA67DCC3590AF91008FB5E6238D48F /* Build configuration list for PBXNativeTarget "Pods-SunUpTests" */;
+			buildPhases = (
+				D4EEE0FF799854F90FFD85E62A6ABE93 /* Headers */,
+				9D0D87469142428D3CCB1201BC75809B /* Sources */,
+				77513CBBFFDBA82752A02B6D888C5AAD /* Frameworks */,
+				9DDD3C53CAC121F1053089B139198FD9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F995BCFCB2F28889502A0198EF0487C6 /* PBXTargetDependency */,
+			);
+			name = "Pods-SunUpTests";
+			productName = "Pods-SunUpTests";
+			productReference = 9EBB4A6A45238C19CE979792F04AED0B /* Pods_SunUpTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1150;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				de,
+				fr,
+				"pl-PL",
+				tr,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 2D626BF009A9AD5802B19A677907E771 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				39D656AC88E303625E9AA42D19C21D75 /* BarcodeScanner */,
+				02E136446D8E897681981873306A783A /* BarcodeScanner-BarcodeScanner */,
+				2598A00DF974C904143778EDC46CC0E5 /* BarcodeScanner-Localization */,
+				9DA86296E110CDB0B1147E04C2C613F9 /* Pods-SunUp */,
+				B05CFA96929F4253DC16026B61BEF9FE /* Pods-SunUp-SunUpUITests */,
+				BD2085A29219D1620AF6B0386287B86D /* Pods-SunUpTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		06D246D71DE67B28C6777E5A08E49596 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91C096133DD682A489725C90F79B2A38 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				725104AEF077162A5B65315F912F0852 /* BarcodeScanner.bundle in Resources */,
+				4B5BA3D38FB40690B93C0E3969AC3217 /* Localization.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		987C3C2F49E002ACFCFB9FE698BC251B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9DDD3C53CAC121F1053089B139198FD9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4312860F9CBC40C13509EB79C614F99 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B4D0DBAAAACF99E446D76C58318A3183 /* Localizable.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F468914EB1473DA9A3D80CEDE69FCCC1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12BE41D56F5BAF2906A96D2D79741322 /* cameraRotate@3x.png in Resources */,
+				3958BF3117C7DB5B6582993CB17BEAC6 /* flashOff@3x.png in Resources */,
+				62E0CE93FC30899F894A910F6EB9BE39 /* flashOn@3x.png in Resources */,
+				47B4EAC55FAADCE3C983A4EC664F779D /* info@3x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2F03B6C32146C30B73BF3ED66FEEDED9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA9EC8E9C8DCA7953E9A1DA7B46DDEC9 /* AVMetadataObject+Extensions.swift in Sources */,
+				D7AF37748C512E156B04D527C288F216 /* BarcodeScanner-dummy.m in Sources */,
+				D235124E4A7B687EBF426AA6087AEB5E /* BarcodeScannerViewController.swift in Sources */,
+				332FCA5031807E217BA2F62269F3A97B /* CameraViewController.swift in Sources */,
+				7760913E92FE2BCA7B1C000E6F58942A /* FocusViewType.swift in Sources */,
+				4BE9AF350DC7568B06E34C03F2DA3579 /* Functions.swift in Sources */,
+				D8F21C55EAFE68610F13C0D35856AF07 /* HeaderViewController.swift in Sources */,
+				D88B6F2FA2660A1651C4A4B0C848EB45 /* MessageViewController.swift in Sources */,
+				9554E000E30543FA96CEE0026406A0CE /* NSLayoutConstraint+Extensions.swift in Sources */,
+				557F4EA99959468A2BF95E6D10428D68 /* State.swift in Sources */,
+				F351CBBA7D0FE00F84286F87520B6AD7 /* TorchMode.swift in Sources */,
+				A7C8A55D7A6828D19257C5DC940A0EF9 /* UIView+Extensions.swift in Sources */,
+				2DB1F7D317E5A014AB4EB30335DEAEB8 /* UIViewController+Extensions.swift in Sources */,
+				308AB608F2297585ECA8083CE126FE4C /* VideoPermissionService.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5FDA69055958A7BD5E118722D0FAFE43 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA0FFD52BF4CC45FFD60D2043085C7FF /* Pods-SunUp-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A25AB7AE14C5A6A338F6D00253611B1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77C977D9753C460CF5AE45081F00E0BA /* Pods-SunUp-SunUpUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70EDADA64F7800A6D55FC5EAB71C2FEA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D0D87469142428D3CCB1201BC75809B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9DC07F24E1C21C735521B9BA7C7ED746 /* Pods-SunUpTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED0002494109EDB9335D76E828BFE50D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		31FF24C2F3789B07BC00C8575213F0C4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = BarcodeScanner;
+			target = 39D656AC88E303625E9AA42D19C21D75 /* BarcodeScanner */;
+			targetProxy = 641782B6A50C2E4525FF0BC4A6340FE0 /* PBXContainerItemProxy */;
+		};
+		3CD3A8AA29E1EAEF6786B6FC915A997F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = BarcodeScanner;
+			target = 39D656AC88E303625E9AA42D19C21D75 /* BarcodeScanner */;
+			targetProxy = 1DE656B8C15BDE799169ABEC3DA12A21 /* PBXContainerItemProxy */;
+		};
+		4A88E0A7695B038D6914F13A80E9896B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "BarcodeScanner-Localization";
+			target = 2598A00DF974C904143778EDC46CC0E5 /* BarcodeScanner-Localization */;
+			targetProxy = FEFB859EA66BDDC311399DC53CE13DDC /* PBXContainerItemProxy */;
+		};
+		8D04E0AB8A12CE2DD68EEA48529ED04C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "BarcodeScanner-BarcodeScanner";
+			target = 02E136446D8E897681981873306A783A /* BarcodeScanner-BarcodeScanner */;
+			targetProxy = F1937F42E05AD91D490024D708FBC2B3 /* PBXContainerItemProxy */;
+		};
+		F995BCFCB2F28889502A0198EF0487C6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-SunUp";
+			target = 9DA86296E110CDB0B1147E04C2C613F9 /* Pods-SunUp */;
+			targetProxy = 3DF9504B6B8ECA5D22959CFA119197E9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3D098393BEF06651863F9888B48E6152 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4B2A39D139E6CE6AC741F3A7C453DBB3 /* Localizable.strings */,
+				238584D464279C614786D5F7916A9E2E /* Localizable.strings */,
+				F0C0E5032C1C5738EA5ADCF97195DCF0 /* Localizable.strings */,
+				E2E2FEFF821E431FC42C5A3C6E42ED29 /* Localizable.strings */,
+				A5A68F9B926548A2C69EDF1B74E614FB /* Localizable.strings */,
+			);
+			name = Localizable.strings;
+			path = Localization;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		167F281A9EB75406F4B8A7CF97D475D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 19BB8B141B4331E78AEBA73C052F8EA8 /* BarcodeScanner.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/BarcodeScanner";
+				IBSC_MODULE = BarcodeScanner;
+				INFOPLIST_FILE = "Target Support Files/BarcodeScanner/ResourceBundle-Localization-BarcodeScanner-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				PRODUCT_NAME = Localization;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		347B5C2F245CE8008EC54C3EEB622926 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B0AE6B4A12D6282582695C3C0A65CB2F /* Pods-SunUp-SunUpUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SunUp-SunUpUITests/Pods-SunUp-SunUpUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SunUp-SunUpUITests/Pods-SunUp-SunUpUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		596BD2A6178B186CC4FC6FD24954460A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 19BB8B141B4331E78AEBA73C052F8EA8 /* BarcodeScanner.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/BarcodeScanner/BarcodeScanner-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/BarcodeScanner/BarcodeScanner-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/BarcodeScanner/BarcodeScanner.modulemap";
+				PRODUCT_MODULE_NAME = BarcodeScanner;
+				PRODUCT_NAME = BarcodeScanner;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		757B74A4C4CDDD3F826D2AA967F64F93 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D5C84530007FBF407A628BF7FF203825 /* BarcodeScanner.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/BarcodeScanner";
+				IBSC_MODULE = BarcodeScanner;
+				INFOPLIST_FILE = "Target Support Files/BarcodeScanner/ResourceBundle-Localization-BarcodeScanner-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				PRODUCT_NAME = Localization;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		8D5763E1522C6B96116E05A59BDDFC45 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D5C84530007FBF407A628BF7FF203825 /* BarcodeScanner.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/BarcodeScanner/BarcodeScanner-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/BarcodeScanner/BarcodeScanner-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/BarcodeScanner/BarcodeScanner.modulemap";
+				PRODUCT_MODULE_NAME = BarcodeScanner;
+				PRODUCT_NAME = BarcodeScanner;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		9E03CD60F58A7E5D0B7D18ECBDF0A68B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 73D733F5894E734E51D02D2B9F3F02CC /* Pods-SunUp-SunUpUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SunUp-SunUpUITests/Pods-SunUp-SunUpUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SunUp-SunUpUITests/Pods-SunUp-SunUpUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A29F241834BA9267D29A52ABFA4020BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 19BB8B141B4331E78AEBA73C052F8EA8 /* BarcodeScanner.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/BarcodeScanner";
+				IBSC_MODULE = BarcodeScanner;
+				INFOPLIST_FILE = "Target Support Files/BarcodeScanner/ResourceBundle-BarcodeScanner-BarcodeScanner-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				PRODUCT_NAME = BarcodeScanner;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		A2DED315CD4E3FDD0ED660538F014C32 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B47C9517C4D8737B31449E3529C1C6A8 /* Pods-SunUpTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SunUpTests/Pods-SunUpTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SunUpTests/Pods-SunUpTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		AA02DBD70E07107BB919500A6DB35FA6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4E8679A427E7CD2B97F17033E953025E /* Pods-SunUp.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SunUp/Pods-SunUp-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SunUp/Pods-SunUp.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		BF9A2E6F6661487003E29408CCBEFC88 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D5C84530007FBF407A628BF7FF203825 /* BarcodeScanner.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/BarcodeScanner";
+				IBSC_MODULE = BarcodeScanner;
+				INFOPLIST_FILE = "Target Support Files/BarcodeScanner/ResourceBundle-BarcodeScanner-BarcodeScanner-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				PRODUCT_NAME = BarcodeScanner;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		D3938D266CC622AE3BA4E6BE25931486 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6CEF74766F556A51E91EAEF51DC36266 /* Pods-SunUpTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SunUpTests/Pods-SunUpTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SunUpTests/Pods-SunUpTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		DFD9D19FEEBF98DE271D7FBABCB845B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		E9CA9AD9A5C3D52C20835FADE10D1108 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0252DC2B2004AD45D8CD7788E19C3C8A /* Pods-SunUp.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SunUp/Pods-SunUp-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SunUp/Pods-SunUp.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F5F04600F5626DC980F02790D1ED2C19 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DFD9D19FEEBF98DE271D7FBABCB845B5 /* Debug */,
+				F5F04600F5626DC980F02790D1ED2C19 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		54202DD1981790D2CD5C8F9F52B5E37C /* Build configuration list for PBXNativeTarget "Pods-SunUp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E9CA9AD9A5C3D52C20835FADE10D1108 /* Debug */,
+				AA02DBD70E07107BB919500A6DB35FA6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5DDE21578FEF0BFAE7EC9B30AA62EAFC /* Build configuration list for PBXNativeTarget "BarcodeScanner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8D5763E1522C6B96116E05A59BDDFC45 /* Debug */,
+				596BD2A6178B186CC4FC6FD24954460A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		783AB652A787513801DD4F1E3995015A /* Build configuration list for PBXNativeTarget "Pods-SunUp-SunUpUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				347B5C2F245CE8008EC54C3EEB622926 /* Debug */,
+				9E03CD60F58A7E5D0B7D18ECBDF0A68B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		85AA67DCC3590AF91008FB5E6238D48F /* Build configuration list for PBXNativeTarget "Pods-SunUpTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2DED315CD4E3FDD0ED660538F014C32 /* Debug */,
+				D3938D266CC622AE3BA4E6BE25931486 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		89FF89A69612F4D5A5239B022939C747 /* Build configuration list for PBXNativeTarget "BarcodeScanner-Localization" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				757B74A4C4CDDD3F826D2AA967F64F93 /* Debug */,
+				167F281A9EB75406F4B8A7CF97D475D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA8A49259F23EE2DCB6D5411DB6BF42F /* Build configuration list for PBXNativeTarget "BarcodeScanner-BarcodeScanner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF9A2E6F6661487003E29408CCBEFC88 /* Debug */,
+				A29F241834BA9267D29A52ABFA4020BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
