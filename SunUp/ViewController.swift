@@ -9,13 +9,10 @@
 import UIKit
 
 class ViewController: UIViewController {
-
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
-        var test = 0
+        //self.StartedButton.layer.cornerRadius = 20
     }
-
-
 }
 

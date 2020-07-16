@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -16,6 +16,10 @@
 		4306EF3224BE4E690073E3CE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4306EF3024BE4E690073E3CE /* LaunchScreen.storyboard */; };
 		4306EF3D24BE4E6A0073E3CE /* SunUpTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4306EF3C24BE4E6A0073E3CE /* SunUpTests.swift */; };
 		4306EF4824BE4E6A0073E3CE /* SunUpUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4306EF4724BE4E6A0073E3CE /* SunUpUITests.swift */; };
+		4306EF9724BF8B770073E3CE /* QuizPageOneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4306EF9624BF8B770073E3CE /* QuizPageOneViewController.swift */; };
+		4306EF9924BFA5F10073E3CE /* InfoPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4306EF9824BFA5F10073E3CE /* InfoPageViewController.swift */; };
+		4306EF9B24C027950073E3CE /* SunscreenRecsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4306EF9A24C027950073E3CE /* SunscreenRecsViewController.swift */; };
+		43E6E25124C0347600F0243E /* AlishaBarcodeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43E6E25024C0347600F0243E /* AlishaBarcodeViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +55,10 @@
 		4306EF4324BE4E6A0073E3CE /* SunUpUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SunUpUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4306EF4724BE4E6A0073E3CE /* SunUpUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SunUpUITests.swift; sourceTree = "<group>"; };
 		4306EF4924BE4E6A0073E3CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4306EF9624BF8B770073E3CE /* QuizPageOneViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizPageOneViewController.swift; sourceTree = "<group>"; };
+		4306EF9824BFA5F10073E3CE /* InfoPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoPageViewController.swift; sourceTree = "<group>"; };
+		4306EF9A24C027950073E3CE /* SunscreenRecsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SunscreenRecsViewController.swift; sourceTree = "<group>"; };
+		43E6E25024C0347600F0243E /* AlishaBarcodeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlishaBarcodeViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +113,10 @@
 				4306EF2424BE4E670073E3CE /* SceneDelegate.swift */,
 				4306EF2624BE4E670073E3CE /* ViewController.swift */,
 				4306EF2824BE4E670073E3CE /* Main.storyboard */,
+				43E6E25024C0347600F0243E /* AlishaBarcodeViewController.swift */,
+				4306EF9A24C027950073E3CE /* SunscreenRecsViewController.swift */,
+				4306EF9824BFA5F10073E3CE /* InfoPageViewController.swift */,
+				4306EF9624BF8B770073E3CE /* QuizPageOneViewController.swift */,
 				4306EF2E24BE4E690073E3CE /* Assets.xcassets */,
 				4306EF3024BE4E690073E3CE /* LaunchScreen.storyboard */,
 				4306EF3324BE4E690073E3CE /* Info.plist */,
@@ -138,9 +150,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4306EF4C24BE4E6A0073E3CE /* Build configuration list for PBXNativeTarget "SunUp" */;
 			buildPhases = (
+				C1F2ED372900109688133502 /* [CP] Check Pods Manifest.lock */,
 				4306EF1B24BE4E670073E3CE /* Sources */,
 				4306EF1C24BE4E670073E3CE /* Frameworks */,
 				4306EF1D24BE4E670073E3CE /* Resources */,
+				74C2C840CCC40938B187B5F8 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -155,6 +169,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4306EF4F24BE4E6A0073E3CE /* Build configuration list for PBXNativeTarget "SunUpTests" */;
 			buildPhases = (
+				255AF65590D3DAF1E7133AD7 /* [CP] Check Pods Manifest.lock */,
 				4306EF3424BE4E6A0073E3CE /* Sources */,
 				4306EF3524BE4E6A0073E3CE /* Frameworks */,
 				4306EF3624BE4E6A0073E3CE /* Resources */,
@@ -173,9 +188,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4306EF5224BE4E6A0073E3CE /* Build configuration list for PBXNativeTarget "SunUpUITests" */;
 			buildPhases = (
+				604DA2924D7F8047FFF6DC2A /* [CP] Check Pods Manifest.lock */,
 				4306EF3F24BE4E6A0073E3CE /* Sources */,
 				4306EF4024BE4E6A0073E3CE /* Frameworks */,
 				4306EF4124BE4E6A0073E3CE /* Resources */,
+				A242F43980B97DECCDE7E2F4 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -257,15 +274,122 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		255AF65590D3DAF1E7133AD7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SunUpTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		604DA2924D7F8047FFF6DC2A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SunUp-SunUpUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		74C2C840CCC40938B187B5F8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SunUp/Pods-SunUp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SunUp/Pods-SunUp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SunUp/Pods-SunUp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A242F43980B97DECCDE7E2F4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SunUp-SunUpUITests/Pods-SunUp-SunUpUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SunUp-SunUpUITests/Pods-SunUp-SunUpUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SunUp-SunUpUITests/Pods-SunUp-SunUpUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C1F2ED372900109688133502 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SunUp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		4306EF1B24BE4E670073E3CE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				4306EF2724BE4E670073E3CE /* ViewController.swift in Sources */,
+				4306EF9B24C027950073E3CE /* SunscreenRecsViewController.swift in Sources */,
 				4306EF2D24BE4E670073E3CE /* SunUp.xcdatamodeld in Sources */,
+				4306EF9924BFA5F10073E3CE /* InfoPageViewController.swift in Sources */,
+				4306EF9724BF8B770073E3CE /* QuizPageOneViewController.swift in Sources */,
 				4306EF2324BE4E670073E3CE /* AppDelegate.swift in Sources */,
 				4306EF2524BE4E670073E3CE /* SceneDelegate.swift in Sources */,
+				43E6E25124C0347600F0243E /* AlishaBarcodeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -438,7 +562,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = SunUp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -446,6 +572,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = kodeWithKlossy.SunUp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -455,7 +582,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = SunUp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -463,6 +592,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = kodeWithKlossy.SunUp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
